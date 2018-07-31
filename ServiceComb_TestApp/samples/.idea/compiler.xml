@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auth-consumer" />
+        <module name="auth-provider" />
+        <module name="bmi-calculator" />
+        <module name="codefirst-consumer" />
+        <module name="codefirst-provider" />
+        <module name="common-schema" />
+        <module name="config-apollo-sample" />
+        <module name="custom-handler-consumer" />
+        <module name="custom-handler-provider" />
+        <module name="jaxrs-consumer" />
+        <module name="jaxrs-provider" />
+        <module name="metrics-extend-healthcheck" />
+        <module name="metrics-write-file" />
+        <module name="pojo-consumer" />
+        <module name="pojo-provider" />
+        <module name="springmvc-consumer" />
+        <module name="springmvc-provider" />
+        <module name="webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-consumer" target="1.8" />
+      <module name="auth-provider" target="1.8" />
+      <module name="auth-sample" target="1.8" />
+      <module name="bmi" target="1.8" />
+      <module name="bmi-calculator" target="1.8" />
+      <module name="codefirst-consumer" target="1.8" />
+      <module name="codefirst-provider" target="1.8" />
+      <module name="codefirst-sample" target="1.8" />
+      <module name="common-schema" target="1.8" />
+      <module name="config-apollo-sample" target="1.8" />
+      <module name="custom-handler-consumer" target="1.8" />
+      <module name="custom-handler-provider" target="1.8" />
+      <module name="custom-handler-sample" target="1.8" />
+      <module name="jaxrs-consumer" target="1.8" />
+      <module name="jaxrs-provider" target="1.8" />
+      <module name="jaxrs-sample" target="1.8" />
+      <module name="metrics-extend-healthcheck" target="1.8" />
+      <module name="metrics-write-file" target="1.8" />
+      <module name="metrics-write-file-sample" target="1.8" />
+      <module name="pojo-consumer" target="1.8" />
+      <module name="pojo-provider" target="1.8" />
+      <module name="pojo-sample" target="1.8" />
+      <module name="samples" target="1.8" />
+      <module name="springmvc-consumer" target="1.8" />
+      <module name="springmvc-provider" target="1.8" />
+      <module name="springmvc-sample" target="1.8" />
+      <module name="webapp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

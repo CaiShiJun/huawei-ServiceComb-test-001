@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth-sample/auth-consumer/auth-consumer.iml" filepath="$PROJECT_DIR$/auth-sample/auth-consumer/auth-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth-sample/auth-provider/auth-provider.iml" filepath="$PROJECT_DIR$/auth-sample/auth-provider/auth-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth-sample/auth-sample.iml" filepath="$PROJECT_DIR$/auth-sample/auth-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bmi/bmi.iml" filepath="$PROJECT_DIR$/bmi/bmi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bmi/calculator/bmi-calculator.iml" filepath="$PROJECT_DIR$/bmi/calculator/bmi-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codefirst-sample/codefirst-consumer/codefirst-consumer.iml" filepath="$PROJECT_DIR$/codefirst-sample/codefirst-consumer/codefirst-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codefirst-sample/codefirst-provider/codefirst-provider.iml" filepath="$PROJECT_DIR$/codefirst-sample/codefirst-provider/codefirst-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codefirst-sample/codefirst-sample.iml" filepath="$PROJECT_DIR$/codefirst-sample/codefirst-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-schema/common-schema.iml" filepath="$PROJECT_DIR$/common-schema/common-schema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-apollo-sample/config-apollo-sample.iml" filepath="$PROJECT_DIR$/config-apollo-sample/config-apollo-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-handler-sample/custom-handler-consumer/custom-handler-consumer.iml" filepath="$PROJECT_DIR$/custom-handler-sample/custom-handler-consumer/custom-handler-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-handler-sample/custom-handler-provider/custom-handler-provider.iml" filepath="$PROJECT_DIR$/custom-handler-sample/custom-handler-provider/custom-handler-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-handler-sample/custom-handler-sample.iml" filepath="$PROJECT_DIR$/custom-handler-sample/custom-handler-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jaxrs-sample/jaxrs-consumer/jaxrs-consumer.iml" filepath="$PROJECT_DIR$/jaxrs-sample/jaxrs-consumer/jaxrs-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jaxrs-sample/jaxrs-provider/jaxrs-provider.iml" filepath="$PROJECT_DIR$/jaxrs-sample/jaxrs-provider/jaxrs-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jaxrs-sample/jaxrs-sample.iml" filepath="$PROJECT_DIR$/jaxrs-sample/jaxrs-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metrics-extend-healthcheck/metrics-extend-healthcheck.iml" filepath="$PROJECT_DIR$/metrics-extend-healthcheck/metrics-extend-healthcheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metrics-write-file-sample/metrics-write-file/metrics-write-file.iml" filepath="$PROJECT_DIR$/metrics-write-file-sample/metrics-write-file/metrics-write-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metrics-write-file-sample/metrics-write-file-sample.iml" filepath="$PROJECT_DIR$/metrics-write-file-sample/metrics-write-file-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo-sample/pojo-consumer/pojo-consumer.iml" filepath="$PROJECT_DIR$/pojo-sample/pojo-consumer/pojo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo-sample/pojo-provider/pojo-provider.iml" filepath="$PROJECT_DIR$/pojo-sample/pojo-provider/pojo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo-sample/pojo-sample.iml" filepath="$PROJECT_DIR$/pojo-sample/pojo-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples.iml" filepath="$PROJECT_DIR$/samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-sample/springmvc-consumer/springmvc-consumer.iml" filepath="$PROJECT_DIR$/springmvc-sample/springmvc-consumer/springmvc-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-sample/springmvc-provider/springmvc-provider.iml" filepath="$PROJECT_DIR$/springmvc-sample/springmvc-provider/springmvc-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-sample/springmvc-sample.iml" filepath="$PROJECT_DIR$/springmvc-sample/springmvc-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bmi/webapp/webapp.iml" filepath="$PROJECT_DIR$/bmi/webapp/webapp.iml" />
+    </modules>
+  </component>
+</project>

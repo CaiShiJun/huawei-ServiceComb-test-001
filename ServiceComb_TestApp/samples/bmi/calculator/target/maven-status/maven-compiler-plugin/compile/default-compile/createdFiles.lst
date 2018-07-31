@@ -1,0 +1,8 @@
+org\apache\servicecomb\samples\bmi\BMIViewObject.class
+org\apache\servicecomb\samples\bmi\CalculatorApplication.class
+org\apache\servicecomb\samples\bmi\CalculatorRestEndpoint.class
+org\apache\servicecomb\samples\bmi\InstanceInfoService.class
+org\apache\servicecomb\samples\bmi\InstanceInfoServiceImpl.class
+org\apache\servicecomb\samples\bmi\CalculatorService.class
+org\apache\servicecomb\samples\bmi\CalculatorServiceImpl.class
+org\apache\servicecomb\samples\bmi\CalculatorEndpoint.class

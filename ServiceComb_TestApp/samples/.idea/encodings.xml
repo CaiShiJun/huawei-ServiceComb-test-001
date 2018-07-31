@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/bmi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bmi/calculator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bmi/webapp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codefirst-sample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codefirst-sample/codefirst-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codefirst-sample/codefirst-provider" charset="UTF-8" />
+  </component>
+</project>

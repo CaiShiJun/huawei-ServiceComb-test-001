@@ -1,0 +1,46 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+          http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+    <!-- 配置spring容器监听器 -->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:META-INF/spring/*.bean.xml</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>io.servicecomb.transport.rest.servlet.RestServletContextListener</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>RestServlet</servlet-name>
+        <servlet-class>io.servicecomb.transport.rest.servlet.RestServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+        <!--<async-supported>true</async-supported>-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RestServlet</servlet-name>
+        <url-pattern>/rest/*</url-pattern>
+    </servlet-mapping>
+
+    <!-- 前端控制器 -->
+    <servlet>
+        <servlet-name>springmvc</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <!-- 加载springmvc配置 -->
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <!-- 配置文件的地址 如果不配置contextConfigLocation， 默认查找的配置文件名称classpath下的：servlet名称+"-serlvet.xml"即：springmvc-serlvet.xml -->
+            <param-value>classpath:config/spring-mvc.xml</param-value>
+        </init-param>
+       <!-- <async-supported>true</async-supported>-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>springmvc</servlet-name>
+        <!-- 可以配置/ ，此工程 所有请求全部由springmvc解析，此种方式可以实现 RESTful方式，需要特殊处理对静态文件的解析不能由springmvc解析
+            可以配置*.do或*.action，所有请求的url扩展名为.do或.action由springmvc解析，此种方法常用 不可以/*，如果配置/*，返回jsp也由springmvc解析，这是不对的。 -->
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+</web-app>
